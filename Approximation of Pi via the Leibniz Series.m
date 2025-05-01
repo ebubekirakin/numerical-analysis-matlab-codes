@@ -3,8 +3,7 @@ x=1;
 toplam=0
 pi=4*atan(1);
 
-for n=1:100
-   
+for n=1:100   
     isaret=(-1)^(n+1);
     pay=x^(2*n-1);
     payda=2*n-1;
