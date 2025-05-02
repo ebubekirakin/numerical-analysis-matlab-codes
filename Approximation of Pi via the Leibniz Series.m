@@ -15,5 +15,4 @@ for n=1:100
     xlabel('n terim sayısı');
     ylabel('hata');
    toplam=sontop;
-   
 end
