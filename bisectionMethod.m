@@ -8,6 +8,8 @@ function root = bisectionMethod(f, a, b, tol, maxIter)
         error('f(a) ve f(b) zıt işaretli olmalı');
     end
 
+    
+
     iter = 0;
     while (b - a)/2 > tol && iter < maxIter
         c = (a + b)/2;
