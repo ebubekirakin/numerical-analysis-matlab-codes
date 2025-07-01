@@ -11,6 +11,7 @@ xlabel('x');
 ylabel('f(x)');
 title('f(x) = x^3 + 2x + 1 Fonksiyonunun Grafiği');
 
+
 % x eksenini göstermek için yatay çizgi
 hold on;
 plot(x, zeros(size(x)), 'k--'); % x ekseni
