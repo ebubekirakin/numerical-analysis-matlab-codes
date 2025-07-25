@@ -5,6 +5,7 @@ x0 = 0.5;             % başlangıç tahmini
 tol = 1e-6;           % tolerans
 maxIter = 100;        % maksimum iterasyon sayısı
 
+
 iter = 0;
 x_prev = x0;
 
