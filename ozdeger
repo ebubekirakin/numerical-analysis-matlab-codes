@@ -1,0 +1,9 @@
+% 2x2 matrisin özdeğer ve özvektörlerini bulma
+
+A = [4 -2; 1 1];
+[V, D] = eig(A); % V: özvektörler, D: özdeğer matrisi
+
+disp('Özdeğerler:');
+disp(diag(D));
+disp('Özvektörler:');
+disp(V);
